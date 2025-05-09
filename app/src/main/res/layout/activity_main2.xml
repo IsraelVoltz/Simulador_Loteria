@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A7564210"
+    android:backgroundTint="#8C785C"
+    tools:context=".MainActivity2">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/GerarNumero"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Gerar Numero"
+            android:translationX="50px"
+            android:translationY="1000px" />
+
+        <Button
+            android:id="@+id/IrComparar"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:onClick="Comparar"
+            android:text="Comparar"
+            android:translationX="570px"
+            android:translationY="1000px" />
+
+        <TextView
+            android:id="@+id/saidaGerador"
+            android:layout_width="256dp"
+            android:layout_height="32dp"
+            android:background="#588C785C"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#000000"
+            android:translationX="200px"
+            android:translationY="315px" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

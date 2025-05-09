@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Background"
+    android:backgroundTint="@color/BackgroundTint"
+    tools:context=".MainActivity5">
+
+    <TextView
+        android:id="@+id/saidaCalc"
+        android:layout_width="256dp"
+        android:layout_height="32dp"
+        android:background="@color/TextView_Color"
+        android:gravity="center"
+        android:translationX="200px"
+        android:translationY="500px" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="256dp"
+            android:layout_height="32dp"
+            android:background="@color/TextView_Color"
+            android:gravity="center"
+            android:text="Chances de ganhar na loteria"
+            android:translationX="200px"
+            android:translationY="157px" />
+
+        <Button
+            android:id="@+id/Calcular"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Calcular"
+            android:translationX="320px"
+            android:translationY="1000px" />
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

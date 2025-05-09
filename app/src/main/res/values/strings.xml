@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Simulador de Loteria</string>
+    <color name="TextView_Color">#588C785C</color>
+</resources>
